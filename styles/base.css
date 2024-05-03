@@ -7,7 +7,6 @@
 
   header {
     display: flex;
-    align-items: center;
     background-color: #1a237e;
     color: white;
     padding: 10px;
@@ -20,7 +19,6 @@
 
   h1{
     text-align: center;
-    padding-top: 100px;
   }
 
   nav {
