@@ -1,4 +1,4 @@
-
+/*
   img {
     width: 10%;
     padding-bottom: 20px;
@@ -11,11 +11,6 @@
     color: white;
     padding: 10px;
   }
-/*
-  header {
-    background-color: blue;
-  }
-  */
 
   h1{
     text-align: center;
@@ -56,5 +51,57 @@
     background: #fff;
     border-top: 2px solid black;
     text-align: center;
+  }
+  */
+
+  body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  header {
+    padding: 2rem;
+    grid-column: 1/4;
+    background-color: #1a237e;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    grid-column: 1/4;
+    background-color: black;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  li {
+    text-align: center;
+  }
+  main {
+    grid-column: 1/4;
+  }
+  h2, h3 {
+    text-align: center;
+  }
+
+  .card {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    grid-column: 1/4;
+    text-align: center;
+  }
+  img {
+    align-items: left;
+    width: 10%;
   }
   
