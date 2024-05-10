@@ -13,6 +13,7 @@
     <title>Caleb Jorgensen - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -20,9 +21,9 @@
         <h1>Caleb Jorgensen</h1>
         <img src="images/myself.jpeg" alt="This is a photo of myself" class="left-image">
     </header>
-    <nav class="navigation">
-        <ul>
-            <li><a href="#"></a>Home</li>
+    <nav id="navigation">
+        <ul class="menu">
+            <li><a class="current" href="#"></a>Home</li>
             <li><a href="lesson03/chamber-site-plan.html"></a>Site Plan</li>
             <li><a href="chamber/"></a>Chamber</li>
             <li><a href="https://www.byui.edu"></a>BYU-Idaho</li>
@@ -36,9 +37,9 @@
             <ul>
                 <li><a href="lesson01/holygrail.html">01: Lesson01</a></li>
                 <li><a href="lesson02/media-query.html">02: Lesson02</a></li>
-                <li><a href="lesson03/images/Screenshot 2024-05-06 at 8.17.46 PM.png">03:Image</a></li>
-                <li><a href="https://codepen.io/spaghetti_yeti/pen/xxNKPJx">Pseudo Code</a></li>
-                <li><a href="https://codepen.io/spaghetti_yeti/pen/gOJYyOX">Hambuger Menu</a></li>
+                <li><a href="lesson03/images/Screenshot 2024-05-06 at 8.17.46 PM.png">03:Image</a> | <a href="https://codepen.io/spaghetti_yeti/pen/xxNKPJx">Pseudo Code</a> | <a href="https://codepen.io/spaghetti_yeti/pen/gOJYyOX">Hamburger Menu</a></li>
+                <li><a>03:</a></li>
+                <li><a>04:</a></li>
                 <li><a>05:</a></li>
                 <li><a>06:</a></li>
                 <li><a>07:</a></li>
@@ -51,10 +52,15 @@
             <h3>Information</h3>
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22238.334328617188!2d-119.30825965861271!3d45.83545054176344!2m3!1f0!2f0!3f0!3m2
+    !1i1024!2i768!4f13.1!3m3!1m2!1s0x54a2b9026e29d2d7%3A0x82ea06f10bd63cbb!2sHermiston%2C%20OR!5e0!3m2!1
+    sen!2sus!4v1715301015121!5m2!1sen!2sus" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
-        <p>Copyright symbol 2024, Caleb Jorgensen, Oregon</p>
+        <p> © Caleb Jorgensen, Oregon</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="getdates.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
 </body>
 </html>
