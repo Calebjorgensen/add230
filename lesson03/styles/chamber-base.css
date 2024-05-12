@@ -1,0 +1,40 @@
+body {
+    max-width: 100%;
+}
+img {
+    max-width: 40%;
+}
+header {
+    background-color: #1d4d72;
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#color1 {
+    background-color: #bc6c25;
+}
+
+#color2 {
+    background-color: #dda15e;
+}
+
+#color3 {
+    background-color: #fefae0;
+}
+
+#color4 {
+    background-color: #283618;
+    color: white;
+}
+
+
+
+
