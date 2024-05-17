@@ -24,14 +24,16 @@
   ul {
     list-style-type: none;
   }
-  li {
-    text-align: center;
-  }
+
   main {
     grid-column: 1/4;
   }
   h2, h3 {
     text-align: center;
+  }
+
+  h3 {
+    border-bottom: solid;
   }
 
   nav ul li a.current::before {
@@ -49,11 +51,11 @@
     text-align: center;
   }
   img {
-    align-items: left;
     width: 10%;
   }
 
   iframe {
     display: block;
+    align-items: center;
   }
   
