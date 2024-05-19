@@ -48,6 +48,10 @@
     margin: 0 25px 25px 25px;
   }
 
+  .card2 {
+    text-align: center;
+  }
+
   footer {
     grid-column: 1/4;
     text-align: center;
