@@ -28,8 +28,17 @@
     </nav>
     <h2>Welcome</h2>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="hero-small.webp" media="(max-width: 500px)">
+                <source srcset="hero-medium.webp" media="(max-width: 1000px)">
+
+                <img src="images/hero-large.webp" alt="People talking" width="1500" height="750">
+            </picture>
+        </div>
+        <div>
         <section class="card">
-            <h3>Hero Image</h3>
+                <h3 id="heroTitle">Hero Image</h3>
             <img class="heroImg" src="images/90.png" alt="Photo of Leavenworth">
             <p>Place Holder</p>
         </section>
@@ -41,11 +50,13 @@
             <h3>current Events</h3>
             <p>place holder</p>
         </section>
+        </div>
     </main>
     <footer>
         <h3>Title Place Holder</h3>
         <p>Place Holder</p>
     </footer>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
