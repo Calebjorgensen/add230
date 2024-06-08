@@ -54,3 +54,19 @@ footer {
 	cursor: pointer;
 	font-size: 2rem;
 }
+
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2pc 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar ul {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
