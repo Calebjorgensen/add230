@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caleb Jorgensen"/>
+    <meta name="description" content="Chamber website for the city Leavenworth WA"/>
+
+    <title>Leavenworth Chamber Website</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon-2.ico">
+</head>
+<body>
+    <div id="mode"> 🕶️</div>
+    <header>
+        <h1>Leavenworth Chamber of Commerce</h1>
+    </header>
+    <nav id="navigation">
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Businesses</a></li>
+            <li><a href="">More Info</a></li>
+        </ul>
+
+    </nav>
+    <main>
+       <h2>Join Application</h2>
+       <form method="get" action="" class="chamberForm">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Job Title* <input type="text" name="jobtitle" required></label>
+                <label>Email* <input type="email" name="email" placeholder="exampleEmail@gmail.com" required></label>
+                <label>Phone* <input type="tel" name="phone" required></label>
+                <label>Business Name <input type="text" name="business" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend></legend>
+                <div>
+                    <label><input type="radio" name="memebership" value="NP Membership is for non profit organization and there is no fee">NP Membership (is for non profit organizations and there is no fee.)</label>
+                    <label><input type="radio" name="memebership" value="Bronze Membership">Bronze Membership</label>
+                    <label><input type="radio" name="memebership" value="Silver Membership">Silver Membership</label>
+                    <label><input type="radio" name="memebership" value="Gold Membership">Gold Membership</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend></legend>
+                <label>Description<input type="text" name="description"></label>
+            </fieldset>
+       </form>
+    </main>
+    <footer>
+        <h3>Title Place Holder</h3>
+        <p>Place Holder</p>
+    </footer>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
