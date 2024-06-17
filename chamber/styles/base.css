@@ -28,8 +28,13 @@ h2 {
 main {
     display: grid;
     grid-template-columns: 65% 35%;
-    align-items: start;
 }
+
+.grid-item {
+    background-color: lightblue;
+    border: 1px;
+}
+
 
 .card {
     background-color: tan;
