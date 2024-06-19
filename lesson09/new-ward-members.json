@@ -1,0 +1,18 @@
+{
+    "familyName" : "Jorgensen",
+    "moveInDate" : "",
+    "memberNumber" : 2,
+    "bishopricVisit" : true,
+    "familyMembers" : [
+        {
+            "name" : "Caleb Jorgensen",
+            "gender" : "Male",
+            "birthdate" : "May 4 1999"
+        },
+        {
+            "name" : "Ellexis",
+            "gender" : "Female",
+            "birthdate" : "July 20 1998"
+        }
+    ]
+}
