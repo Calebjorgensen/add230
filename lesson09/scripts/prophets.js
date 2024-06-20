@@ -15,10 +15,11 @@ const displayProphets = (prophets) => {
         let fullName = document.createElement("h2");
         let portrait = document.createElement("img");
 
-        fullName.textContent = `${prophet.name} fullName`; //Need to update this part.
+        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+
 
         portrait.setAttribute("src", prophet.imageurl);
-        portrait.setAttribute("alt" , `Portrait of ${prophet.card}`);//This one also needs updated.
+        portrait.setAttribute("alt" , `Portrait of ${prophet.card}`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
         portrait.setAttribute("height", "440");
