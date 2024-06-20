@@ -1,0 +1,39 @@
+{
+    "lessons" : [
+        {
+            "lesson" : "02",
+            "links" : [
+                {
+                    "url" : "lesson02/media-query.html",
+                    "title" : "Media Queries"
+                },
+                {
+                    "url" : "lesson02/design-priciples.html",
+                    "title" : "Design Principles Document"
+                }
+            ],
+
+            "lesson03" : "03",
+            "links03" : [
+                {
+                    "url" : "chamber-site-plan.html",
+                    "title" : "Chamber Site Plan"
+                }
+            ],
+
+            "lesson04" : "04",
+            "links04" : [
+                {
+                    "url" : ""
+                }
+            ],
+
+            "lesson05" : "05",
+            "links05" : [
+                {
+                    
+                }
+            ]
+        }
+    ]
+}
