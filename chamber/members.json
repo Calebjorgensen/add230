@@ -1,0 +1,60 @@
+{
+    "members" : [
+        {
+            "name" : "The Wood Shop",
+            "addresses" : "719 Front Street, Leavenworth WA 98826",
+            "phone numbers" : 5095484442,
+            "websiteURL" : "hatshopwoodshop.com",
+            "image" : "",
+            "membershipLevel" : "broonze"
+        },
+        {
+            "name" : "Boulder Bend Glassworks",
+            "addresses" : "8210 US highway 2, Peshastin WA 98847",
+            "phone numbers" : 5098811320,
+            "websiteURL" : "boulderbendglassworks.com",
+            "image" : "",
+            "membershipLevel" : ""
+        },
+        {
+            "name" : "The Hat Shop",
+            "addresses" : "721 Front Street, Leavenworth WA 98826",
+            "phone numbers" : 5095484442,
+            "websiteURL" : "hatshopwoodshop.com",
+            "image" : "",
+            "membershipLevel" : ""
+        },
+        {
+            "name" : "Kris Kringl",
+            "addresses" : "907 Front Street, Leavenworth WA 98826",
+            "phone numbers" : 5095486867,
+            "websiteURL" : "kriskringl.com",
+            "image" : "",
+            "membershipLevel" : ""
+        },
+        {
+            "name" : "Mountain Country Corner",
+            "addresses" : "843 Front Street, Suite A, Leavenworth WA 98826",
+            "phone numbers" : 5095485312,
+            "websiteURL" : "bearly@nwi.net",
+            "image" : "",
+            "membershipLevel" : ""
+        },
+        {
+            "name" : "Bushel and Bee Bottle Shop",
+            "addresses" : "900 Front Street, Suite B, Leavenworth WA 98826",
+            "phone numbers" : 5098885046,
+            "websiteURL" : "bushelandbee.com",
+            "image" : "",
+            "membershipLevel" : ""
+        },
+        {
+            "name" : "Cured by Viscontis",
+            "addresses" : "636 Front Street, Suite C, Leavenworth WA 98826",
+            "phone numbers" : 5098880424,
+            "websiteURL" : "curedbyvisconti.com",
+            "image" : "",
+            "membershipLevel" : ""
+        }
+    ]
+}
