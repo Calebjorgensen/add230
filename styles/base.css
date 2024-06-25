@@ -143,6 +143,10 @@
     text-align: center;
   }
 
+  .open a {
+    display: block;
+  }
+
 
 }
   
