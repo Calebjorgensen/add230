@@ -23,20 +23,27 @@ async function getLinks() {
   }
 }
 
+
 async function displayLinks(weeks) {
-    const linksContainer = document.getElementById('card'); // Assuming you have a container element with this ID
-    //linksContainer.innerHTML = ''; // Clear any existing links
-  
+  try {
+    const linksContainer = document.getElementById('cards');
+    if (!linksContainer) {
+      throw new Error("Element with ID 'card' not found");
+    }
+
+    // Clear any existing links
+    linksContainer.innerHTML = '';
+
     weeks.forEach((week) => {
       const weekDiv = document.createElement('div');
       weekDiv.classList.add('week');
-  
+
       const weekTitle = document.createElement('h3');
-      weekTitle.textContent = `Week ${week.week}`;
+      weekTitle.textContent = `Week ${week.lesson}`;
       weekDiv.appendChild(weekTitle);
-  
+
       const linksList = document.createElement('ul');
-  
+
       week.links.forEach((link) => {
         const listItem = document.createElement('li');
         const linkElement = document.createElement('a');
@@ -44,12 +51,46 @@ async function displayLinks(weeks) {
         linkElement.textContent = link.title;
         listItem.appendChild(linkElement);
         linksList.appendChild(listItem);
-      })
-  
+      });
+
       weekDiv.appendChild(linksList);
       linksContainer.appendChild(weekDiv);
-    })
+    });
+  } catch (error) {
+    console.error("Error in displayLinks:", error);
   }
+}
+
+
+
+
+// async function displayLinks(weeks) {
+//     const linksContainer = document.getElementById('card'); // Assuming you have a container element with this ID
+//     //linksContainer.innerHTML = ''; // Clear any existing links
+  
+//     weeks.forEach((week) => {
+//       const weekDiv = document.createElement('div');
+//       weekDiv.classList.add('week');
+  
+//       const weekTitle = document.createElement('h3');
+//       weekTitle.textContent = `Week ${week.week}`;
+//       weekDiv.appendChild(weekTitle);
+  
+//       const linksList = document.createElement('ul');
+  
+//       week.links.forEach((link) => {
+//         const listItem = document.createElement('li');
+//         const linkElement = document.createElement('a');
+//         linkElement.href = link.url;
+//         linkElement.textContent = link.title;
+//         listItem.appendChild(linkElement);
+//         linksList.appendChild(listItem);
+//       })
+  
+//       weekDiv.appendChild(linksList);
+//       linksContainer.appendChild(weekDiv);
+//     })
+//   }
 
 
 getLinks();
