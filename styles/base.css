@@ -21,6 +21,10 @@
     color: white;
   }
 
+  a {
+    color: black;
+  }
+
   nav a:hover {
     background-color: black;
     color: white;
@@ -89,11 +93,15 @@
 
 
 
+
+
+/* This is the media query for moblie view. */
+
 @media only screen and (max-width: 460px) {
   main {
     display: grid;
     flex-direction: column;
-  width: 100%;
+    width: 100%;
   }
 
   .card{
@@ -103,6 +111,38 @@
   .iframeMap {
     margin: 0 auto;
   }
+
+  /* This is for the hamburger menu in the moblie view */
+
+  #menu {
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  #menu::before {
+    content: "☰";
+  }
+  
+  #menu.open::before {
+    content: ✅;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+  }
+
 
 }
   
