@@ -79,6 +79,15 @@
                     "title" : "JSON practice"
                 }
             ]
+        },
+        {
+            "lesson" : "10",
+            "links" : [
+                {
+                    "url" : "lesson10/weather.html",
+                    "title" : "WeatherAPI"
+                }
+            ]
         }
     ]
 }
