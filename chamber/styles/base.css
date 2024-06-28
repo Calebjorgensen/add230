@@ -108,8 +108,7 @@ footer {
 
 .chamberForm input[type="text"],
 .chamberForm input[type="tel"],
-.chamberForm input[type="email"],
-.chamberForm input[type="textarea"]
+.chamberForm input[type="email"]
 {   
     background-color: #eee;
     display: block;
