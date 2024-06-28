@@ -42,5 +42,23 @@ body {
   /*----------This is the Forms CSS-----------*/
 
 
+.courseForm fieldset {
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: .5rem 2%;
+}
 
-  
+.courseForm label {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .9rem;
+}
+
+.courseForm input[type="text"],
+.courseForm input[type="password"],
+.courseForm input[type="email"]
+{
+  display: block;
+}
