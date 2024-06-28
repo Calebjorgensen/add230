@@ -90,7 +90,11 @@
   width: 100%;
 }
 
+/*--------------THis is the record page after submmitng the form---------------*/
 
+#formmessage {
+  text-align: center;
+}
 
 
 /* This is the media query for moblie view. */
