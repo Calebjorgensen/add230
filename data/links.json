@@ -68,6 +68,10 @@
                 {
                     "url" : "lesson08/tableform.html",
                     "title" : "Table build"
+                },
+                {
+                    "url" : "lesson08/Form-start/index.html",
+                    "title" : "Form build"
                 }
             ]
         },
