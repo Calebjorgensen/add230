@@ -148,11 +148,41 @@ footer {
         margin: 0 auto;
     }
 
+    /*-----------This is the hamburger menu -------------*/
+
+    #menu {
+        border: 0;
+        background: none;
+        color: #000;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .navigation a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .open a {
+        display: block;
+    }
+
 }
 
 
 
 
-/*-----------This is the hamburger menu -------------*/
 
 
