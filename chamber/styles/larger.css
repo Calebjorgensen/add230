@@ -1,9 +1,33 @@
 @media (min-width: 640px) {
-    nav ul {
-        display: flex;
-    }
 
-    nav ul li {
-        width: 100%;
-    }
+	main {
+		display: grid;
+	  }
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		width: 100%;
+	}
+
+	.mapContainer {
+		width: 100%;
+	}
+
+	.iframeMap {
+		margin: 0 auto;
+	}
+
+	.card {
+		background-color: tan;
+		padding: 10px;
+		margin: 0 25px 25px 25px;
+	  }
+
+	  #menu {
+		display: none;
+	  }
 }
+
+
+
