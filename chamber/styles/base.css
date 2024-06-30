@@ -29,6 +29,33 @@ h2 {
 }
 
 
+
+/*-----------This is the hero image section--------------*/
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #4d5b97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 03rem #fff;
+    opacity: 0.75;
+}
+
+
+
+
 /* This is the Main Section. */
 
 main {
