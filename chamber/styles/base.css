@@ -60,31 +60,34 @@ h2 {
 
 main {
     display: grid;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+    /* grid-gap: 15px; */
+    margin: 20px
 }
 
 
-.grid-item {
-    background-color: lightblue;
-    border: 1px;
+section {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .card {
-    background-color: tan;
-    padding: 10px;
-    width: 85%;
-    margin: 0 25px 25px 25px;
+    background-color: lightgrey;
 }
 
-.heroImg {
-    width: 75%;
-    height: auto;
+.businesses {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
 }
 
-
-
-
+.business {
+    background-color: lightgrey;
+    text-align: center;
+}
 
 /* This is the footer Seciton */
 
