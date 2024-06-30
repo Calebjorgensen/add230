@@ -3,6 +3,8 @@ body {
 }
 
 
+
+
 /* This is the header section */
 header {
     display: flex;
@@ -27,6 +29,10 @@ ul {
 h2 {
     text-align: center;
 }
+
+
+
+
 
 
 
