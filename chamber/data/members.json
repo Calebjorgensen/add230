@@ -5,7 +5,7 @@
             "addresses" : "719 Front Street, Leavenworth WA 98826",
             "phone numbers" : 5095484442,
             "websiteURL" : "hatshopwoodshop.com",
-            "image" : "",
+            "image" : "images/Wood-shop.png",
             "membershipLevel" : "Bronze"
         },
         {
@@ -13,7 +13,7 @@
             "addresses" : "8210 US highway 2, Peshastin WA 98847",
             "phone numbers" : 5098811320,
             "websiteURL" : "boulderbendglassworks.com",
-            "image" : "",
+            "image" : "images/Boulder-bend-glassworks.png",
             "membershipLevel" : "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "addresses" : "721 Front Street, Leavenworth WA 98826",
             "phone numbers" : 5095484442,
             "websiteURL" : "hatshopwoodshop.com",
-            "image" : "",
+            "image" : "images/Hat-shop.png",
             "membershipLevel" : "Silver"
         },
         {
@@ -29,7 +29,7 @@
             "addresses" : "907 Front Street, Leavenworth WA 98826",
             "phone numbers" : 5095486867,
             "websiteURL" : "kriskringl.com",
-            "image" : "",
+            "image" : "images/Kris-kringl.png",
             "membershipLevel" : "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "addresses" : "843 Front Street, Suite A, Leavenworth WA 98826",
             "phone numbers" : 5095485312,
             "websiteURL" : "bearly@nwi.net",
-            "image" : "",
+            "image" : "images/Mountain-country-corner.png",
             "membershipLevel" : "Bronze"
         },
         {
@@ -45,7 +45,7 @@
             "addresses" : "900 Front Street, Suite B, Leavenworth WA 98826",
             "phone numbers" : 5098885046,
             "websiteURL" : "bushelandbee.com",
-            "image" : "",
+            "image" : "images/bushel-and-bee-bottleshop.png",
             "membershipLevel" : "Silver"
         },
         {
@@ -53,7 +53,7 @@
             "addresses" : "636 Front Street, Suite C, Leavenworth WA 98826",
             "phone numbers" : 5098880424,
             "websiteURL" : "curedbyvisconti.com",
-            "image" : "",
+            "image" : "images/cured-by-viscontis.png",
             "membershipLevel" : "NP Membership"
         }
     ]
