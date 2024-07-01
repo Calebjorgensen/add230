@@ -24,6 +24,7 @@ const displayMembers = (members) => {
         address.textContent = `${member.addresses}`;
         website.textContent = `${member.websiteURL}`;
         membership.textContent = `${member.membershipLevel}`
+        
 
 
         coverImage.setAttribute("src",member.image);
