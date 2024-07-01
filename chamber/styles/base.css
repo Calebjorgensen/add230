@@ -64,7 +64,11 @@ h2 {
 
 /* This is the Main Section. */
 
-main {
+#formTitle {
+    text-align: center;
+}
+
+.mainHome {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-columns: auto auto;

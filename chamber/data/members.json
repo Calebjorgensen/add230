@@ -6,7 +6,7 @@
             "phone numbers" : 5095484442,
             "websiteURL" : "hatshopwoodshop.com",
             "image" : "",
-            "membershipLevel" : "broonze"
+            "membershipLevel" : "Bronze"
         },
         {
             "name" : "Boulder Bend Glassworks",
@@ -14,7 +14,7 @@
             "phone numbers" : 5098811320,
             "websiteURL" : "boulderbendglassworks.com",
             "image" : "",
-            "membershipLevel" : ""
+            "membershipLevel" : "Gold"
         },
         {
             "name" : "The Hat Shop",
@@ -22,7 +22,7 @@
             "phone numbers" : 5095484442,
             "websiteURL" : "hatshopwoodshop.com",
             "image" : "",
-            "membershipLevel" : ""
+            "membershipLevel" : "Silver"
         },
         {
             "name" : "Kris Kringl",
@@ -30,7 +30,7 @@
             "phone numbers" : 5095486867,
             "websiteURL" : "kriskringl.com",
             "image" : "",
-            "membershipLevel" : ""
+            "membershipLevel" : "Gold"
         },
         {
             "name" : "Mountain Country Corner",
@@ -38,7 +38,7 @@
             "phone numbers" : 5095485312,
             "websiteURL" : "bearly@nwi.net",
             "image" : "",
-            "membershipLevel" : ""
+            "membershipLevel" : "Bronze"
         },
         {
             "name" : "Bushel and Bee Bottle Shop",
@@ -46,7 +46,7 @@
             "phone numbers" : 5098885046,
             "websiteURL" : "bushelandbee.com",
             "image" : "",
-            "membershipLevel" : ""
+            "membershipLevel" : "Silver"
         },
         {
             "name" : "Cured by Viscontis",
@@ -54,7 +54,7 @@
             "phone numbers" : 5098880424,
             "websiteURL" : "curedbyvisconti.com",
             "image" : "",
-            "membershipLevel" : ""
+            "membershipLevel" : "NP Membership"
         }
     ]
 }
