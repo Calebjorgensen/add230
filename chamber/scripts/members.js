@@ -14,6 +14,7 @@ const displayMembers = (members) => {
         let card = document.createElement("section");
         let coverImage = document.createElement("img");
         let fullName = document.createElement("h2");
+        let phoneTitle = document.createElement("h3");
         let number = document.createElement("p");
         let address = document.createElement("p");
         let website = document.createElement("p"); 
@@ -24,6 +25,7 @@ const displayMembers = (members) => {
         address.textContent = `${member.addresses}`;
         website.textContent = `${member.websiteURL}`;
         membership.textContent = `${member.membershipLevel}`
+        phoneTitle.textContent = "Phone Number";
         
 
 
@@ -36,6 +38,7 @@ const displayMembers = (members) => {
         card.appendChild(address);
         card.appendChild(website);
         card.appendChild(membership);
+        card.appendChild(phoneTitle);
 
         cards.appendChild(card);
     })
