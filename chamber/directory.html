@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Caleb Jorgensen"/>
     <meta name="description" content="Chamber website for the city Leavenworth WA"/>
+    <meta property="og:title" content="Leavenworth Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aboutamazon.com%2Fnews%2Faws%2Faws-data-centers-eastern-oregon&psig=AOvVaw3aNvGILKCsCjYhCYcx_0Rj&ust=1714585375870000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjN4rO-6oUDFQAAAAAdAAAAABAK">
+    <meta property="og:url" content="https://calebjorgensen.github.io/wdd230/chamber/">
 
-    <title>Leavenworth Chamber Website</title>
+    <title>Leavenworth Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -17,45 +22,30 @@
     <header>
         <h1>Leavenworth Chamber of Commerce</h1>
     </header>
-    <nav id="navigation">
-        <ul class="menu">
+    <button id="menu"></button>
+
+    <nav class="navigation">
+        <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="form.html">Applicate Form</a></li>
-            <li><a href="discover.html">Discover more</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
         </ul>
 
     </nav>
+
     <h2>Welcome</h2>
-    <main>
-
-        <div id="cards"></div>
-
-
-
-        <!-- <section class="businesses">
-            <section class="business">
-                <img src="images/Boulder-bend-glassworks.png" alt="Boulders bend Glasswork image" width="175px">
-                <h3>Place holder</h3>
-                <p>Place Holder</p>
-            </section>
-            <section class="business">
-                <h3>SPY Business</h3>
-                <p>Place Holder</p>
-            </section>
-            <section class="business">
-                <h3>A-1 Industrial</h3>
-                <p>Place Holder</p>
-            </section>
-        </section> -->
-   
+    
+    <main class="mainHome">
+       <div id="cards"></div>
     </main>
+    
     <footer>
         <h3>Title Place Holder</h3>
-        <p>Place Holder</p>
     </footer>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/members.js"></script>
 </body>
 </html>

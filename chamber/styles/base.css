@@ -172,6 +172,13 @@ footer {
 }
 
 
+/*--------Main section in Directory page----------------*/
+
+#cards img {
+    width: 175px;
+}
+
+
 
 
 /*-------Moblie CSS view for the Website---------*/
