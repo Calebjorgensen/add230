@@ -178,6 +178,21 @@ footer {
     width: 175px;
 }
 
+#cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+    margin: 20px;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: lightgrey;
+}
+
+
+
 
 
 
@@ -223,6 +238,10 @@ footer {
     }
 
     .open a {
+        display: block;
+    }
+
+    #cards section{
         display: block;
     }
 
