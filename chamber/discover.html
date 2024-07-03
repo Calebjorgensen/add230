@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Caleb Jorgensen"/>
     <meta name="description" content="Chamber website for the city Leavenworth WA"/>
+    <meta property="og:title" content="Leavenworth Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aboutamazon.com%2Fnews%2Faws%2Faws-data-centers-eastern-oregon&psig=AOvVaw3aNvGILKCsCjYhCYcx_0Rj&ust=1714585375870000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjN4rO-6oUDFQAAAAAdAAAAABAK">
+    <meta property="og:url" content="https://calebjorgensen.github.io/wdd230/chamber/">
 
-    <title>Leavenworth Chamber Website</title>
+    <title>Discover Page for the Leavenworth Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -17,58 +22,36 @@
     <header>
         <h1>Leavenworth Chamber of Commerce</h1>
     </header>
-    <nav id="navigation">
-        <ul class="menu">
+    <button id="menu"></button>
+
+
+
+
+    <nav class="navigation">
+        <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Businesses</a></li>
-            <li><a href="">More Info</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
         </ul>
 
     </nav>
+
+
+
+
+
     <h2>Welcome</h2>
-    <main>
 
-        <div class="container-grid">
-            <div id="grid-item item1">Item1</div>
-            <div id="grid-item item2">Item2</div>
-            <div id="grid-item item3">Item3</div>
-        </div>
-
-        <!--
+    <main class="mainHome">
         
-        <section class="content">
-            <div class="img1">
-                <img src="https://picsum.photos/id/1/200/300" alt="Placeholder" loading="lazy" width="400" height="600">
-            </div>
-            <div class="img2">
-                <img src="https://picsum.photos/id/19/200/300" alt="Placeholder" loading="lazy" width="400" height="600">
-            </div>
-            <div class="img3">
-                <img src="https://picsum.photos/id/20/200/300" alt="Placeholder" loading="lazy" width="400" height="600">
-            </div>
-            <div class="img4">
-                <img src="https://picsum.photos/id/28/200/300" alt="Placeholder" loading="lazy" width="400" height="600">
-            </div>
-            <div class="img5">
-                <img src="https://picsum.photos/id/35/200/300" alt="Placeholder" loading="lazy" width="400" height="600">
-            </div>
-            <div class="img6">
-                <img src="https://picsum.photos/id/65/200/300" alt="Placeholder" loading="lazy" width="400" height="600">
-            </div>
-        </section>
-
-    -->
-
     </main>
     <footer>
         <h3>Title Place Holder</h3>
-        <p>Place Holder</p>
-        <p class="visits"></p>
-        <p>Place Holder</p>
     </footer>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/vistors.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
