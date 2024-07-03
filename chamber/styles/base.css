@@ -101,9 +101,51 @@ section {
 
 /* This is the footer Seciton */
 
-footer {
-    text-align: center;
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #a4a4a4;
+    color: #fff;
+    padding: 20px;
 }
+
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-address p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-top: 1px solid #777;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: #e7e7e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #mode {
 	position: absolute;
@@ -175,6 +217,18 @@ footer {
 
 
 /*------------This is the style section for the Discover Page----------------------------*/
+
+#discover-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
 
 .container {
     display: grid;
