@@ -172,6 +172,74 @@ footer {
 }
 
 
+
+
+/*------------This is the style section for the Discover Page----------------------------*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    /* height: 80%; */
+    border: 1px solid #ccc;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+.calendar-placeholder {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-item{
+    height: 100px;
+    background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------Main section in Directory page----------------*/
 
 #cards img {
