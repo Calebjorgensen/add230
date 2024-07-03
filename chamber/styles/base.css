@@ -62,7 +62,7 @@ h2 {
 
 
 
-/* This is the Main Section. */
+/*--------------Main Section-----------------*/
 
 #formTitle {
     text-align: center;
@@ -80,7 +80,11 @@ h2 {
 section {
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+section h2, section h3 {
+    text-decoration: underline;
 }
 
 .card {
@@ -99,7 +103,11 @@ section {
     text-align: center;
 }
 
-/* This is the footer Seciton */
+
+
+
+
+/*--------------Footer Section-------------------*/
 
 .footer {
     display: grid;
