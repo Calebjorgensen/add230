@@ -38,6 +38,14 @@ ul {
     list-style-type: none;
 }
 
+a {
+    padding: 20px;
+}
+
+a:hover {
+    color: white;
+    background-color: #000;
+}
 
 
 
