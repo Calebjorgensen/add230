@@ -125,6 +125,11 @@ section h2, section h3 {
     margin-left: 170px;
 }
 
+.business-image {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -369,11 +374,8 @@ section h2, section h3 {
         align-items: center;
     }
 
-
-    main {
-        display: grid;
-        flex-direction: column;
-        /* width: 100%; */
+    .mainHome {
+        display: inline;
     }
 
     .card {
