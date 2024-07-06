@@ -195,7 +195,7 @@ section h2, section h3 {
 }
 
 
-/* This is the style for the Form page. join.html */
+/*----------Form for join.html-------------------*/
 
 
 
@@ -247,6 +247,9 @@ section h2, section h3 {
     margin: -1rem 2% 2rem 2%;
 }
 
+
+
+/*------------------thankyou.html-----------------------------*/
 #thankyouMessage {
     text-align: center;
 }

@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Caleb Jorgensen"/>
-    <meta name="description" content="Chamber website for the city Leavenworth WA"/>
+    <meta name="description" content="This is the form application so that businesses can join the leavenworth Chamber of Commerce"/>
+    <meta property="og:title" content="Leavenworth Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aboutamazon.com%2Fnews%2Faws%2Faws-data-centers-eastern-oregon&psig=AOvVaw3aNvGILKCsCjYhCYcx_0Rj&ust=1714585375870000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjN4rO-6oUDFQAAAAAdAAAAABAK">
+    <meta property="og:url" content="https://calebjorgensen.github.io/wdd230/chamber/">
 
-    <title>Leavenworth Chamber Website</title>
+    <title>Membership Join Form</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -15,29 +20,52 @@
 <body>
     <div id="mode"> 🕶️</div>
     <header>
-        <h1>Leavenworth Chamber of Commerce</h1>
+        <div class="header-left">
+            <img src="images/logo.jpg" alt="Leavenworth Chamber of Commerce Logo" class="header-logo">
+        </div>
+        <div class="header-center">
+            <h1>Leavenworth<br>Chamber of Commerce</h1>
+        </div>
+
+        <div class="header-right">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+    
+        </nav>
+        </div>
     </header>
-    <nav id="navigation">
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="directory.html">Members</a></li>
-            <li><a href="join.html">Applicate Form</a></li>
-            <li><a href="discover.html">Discover more</a></li>
-        </ul>
+    <button id="menu"></button>
 
-    </nav>
-    <h2>Thank you!</h2>
-
+    
     <main>
-       <p id="thankyouMessage">Thank you for joining. We will reach out in about a week on your status.</p>
-       
-       
+        <p id="thankyouMessage">Thank you for joining. We will reach out in about a week on your status.</p>
     </main>
-    <footer>
-        <h3>Title Place Holder</h3>
-        <p>Place Holder</p>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="images/logo.jpg" alt="Leavenworth Chamber of Commerce Logo" class="footer-logo">
+            <div class="address">
+                <p>Leavenworth<br> Chamber of Commerce</p>
+                <p>940 US Hwy 2 STE B,<br> Leavenworth, WA 98826</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Info@lwChamber.org</p>
+            <p>509-548-5807</p>
+        </div>
+        <div class="footer-bottom">
+            <p>Leavenworth Chamber of Commerce @ 2024</p>
+        </div>
     </footer>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
 </body>
 </html>
+
+
+
