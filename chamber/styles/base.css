@@ -130,6 +130,11 @@ section h2, section h3 {
     height: auto;
 }
 
+#weather-card {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
@@ -278,6 +283,7 @@ section h2, section h3 {
     width: 80%;
     /* height: 80%; */
     border: 1px solid #ccc;
+    
 }
 
 .sidebar {
@@ -314,10 +320,7 @@ section h2, section h3 {
     gap: 10px;
 }
 
-.content-item{
-    height: 100px;
-    background-color: #ccc;
-}
+
 
 
 
@@ -468,6 +471,16 @@ section a {
         margin: 0 auto;
     }
 
+
+    .container {
+        display: inline;
+    }
+    
+    .content-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
     /*-----------This is the hamburger menu -------------*/
