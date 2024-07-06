@@ -337,27 +337,110 @@ section h2, section h3 {
 
 /*--------Main section in Directory page----------------*/
 
-#cards img {
-    width: 175px;
+.directory-main {
+    margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+	font-family: Roboto, Helvetica, sans-serif;
 }
 
-#cards section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-columns: auto auto;
-    grid-gap: 15px;
-    margin: 20px;
 
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: lightgrey;
+
+
+
+
+#grid {
+    padding: 1rem;
+	font-weight: 700;
 }
 
-#cards h3 {
-    grid-column: 1/2;
-    grid-row: 2/3;
+#list {
+    padding: 1rem;
+	font-weight: 700;
 }
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+.directory-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.directory-grid section {
+	text-align: center;
+}
+
+.directory-grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.directory-grid section > * {
+	margin: 0.1rem;
+}
+
+.directory-grid h2 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+section h2 {
+	font-size: 1.5rem;
+}
+
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+}
+
+.directory-main img {
+	height: 400px;
+	max-width: 100%; 
+}
+
+
 
 
 
