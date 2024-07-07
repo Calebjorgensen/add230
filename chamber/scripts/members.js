@@ -5,8 +5,8 @@ const cards = document.querySelector("#cards");
 async function getMembersData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
-    //displayMembers(data.members);
+    //console.log(data);
+    displayMembers(data.members);
 }
 
 const displayMembers = (members) => {
