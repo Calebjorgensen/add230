@@ -455,6 +455,16 @@ section a {
 
 
 
+/*--------------Banner section--------------------------*/
+
+#banner {
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 
 
 
