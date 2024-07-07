@@ -318,6 +318,16 @@ section h2, section h3 {
     gap: 10px;
 }
 
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hover:hover {
+    box-shadow: 0 0 50px #333;
+}
 
 
 
