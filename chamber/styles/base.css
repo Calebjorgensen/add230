@@ -423,7 +423,7 @@ section h2, section h3 {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: lightblue;
 }
 
 section h2 {
