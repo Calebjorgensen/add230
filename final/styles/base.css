@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+
+img {
+    width: 100px;
+}
+
+
+/*-------------Header section--------------------*/
+
+header {
+    display: flex;
+}

@@ -1,0 +1,106 @@
+{
+    "rentals" : [
+        {
+            "rentalType" : "Honda Metro Scooter",
+            "maxPersons" : 1,
+            "rentalImage" : "images/hondametroscooter.jpg",
+            "reservation" : [
+                {
+                    "halfDay" : "$20",
+                    "fullDay" : "$30"
+                }
+            ],
+            "walkin" : [
+                {
+                    "halfDay" : "$25",
+                    "fullDay" : "$35"
+                }
+            ]
+        },
+        {
+            "rentalType" : "Honda Dio Scooter",
+            "maxPersons" : 2,
+            "rentalImage" : "images/hondadioscooter.webp",
+            "reservation" : [
+                {
+                    "halfDay" : "$30",
+                    "fullDay" : "$40"
+                }
+            ],
+            "walkin" : [
+                {
+                    "halfDay" : "$35",
+                    "fullDay" : "$45"
+                }
+            ]
+        },
+        {
+            "rentalType" : "Honda PCX150 Scooter",
+            "maxPersons" : 2,
+            "rentalImage" : "images/hondapcx150scooter.jpg",
+            "reservation" : [
+                {
+                    "halfDay" : "$40",
+                    "fullDay" : "$50"
+                }
+            ],
+            "walkin" : [
+                {
+                    "halfDay" : "$45",
+                    "fullDay" : "$55"
+                }
+            ]
+        },
+        {
+            "rentalType" : "Honda Pioneer ATV",
+            "maxPersons" : 4,
+            "rentalImage" : "images/hondapioneeratv.jpg",
+            "reservation" : [
+                {
+                    "halfDay" : "$50",
+                    "fullDay" : "$70"
+                }
+            ],
+            "walkin" : [
+                {
+                    "halfDay" : "$60",
+                    "fullDay" : "$80"
+                }
+            ]
+        },
+        {
+            "rentalType" : "Jeep Wrangler - 4 door with a/c",
+            "maxPersons" : 5,
+            "rentalImage" : "images/jeepwrangler4door.webp",
+            "reservation" : [
+                {
+                    "halfDay" : "$70",
+                    "fullDay" : "$1000"
+                }
+            ],
+            "walkin" : [
+                {
+                    "halfDay" : "$85",
+                    "fullDay" : "$125"
+                }
+            ]
+        },
+        {
+            "rentalType" : "Jeep Wrangler - 2 door",
+            "maxPersons" : 4,
+            "rentalImage" : "images/jeepwrangler2door.jpg",
+            "reservation" : [
+                {
+                    "halfDay" : "$60",
+                    "fullDay" : "$85"
+                }
+            ],
+            "walkin" : [
+                {
+                    "halfDay" : "$70",
+                    "fullDay" : "$90"
+                }
+            ]
+        }
+    ]
+}
