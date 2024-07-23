@@ -1,5 +1,8 @@
 body {
     height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -11,4 +14,393 @@ img {
 
 header {
     display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+
+
+
+
+
+
+
+/*-------------Home Page Main Section----------------------------*/
+.homepage-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.homepage-main section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.homepage-main h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.homepage-main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.homepage-main p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+/*------------------Footer Seciton------------------------*/
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+
+footer h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer p,
+footer a {
+    color: #ccc;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+footer section {
+    max-width: 300px;
+    padding: 10px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/*-----------------Slideshow build part of the website.-----------------------*/
+
+
+.slideshow {
+    grid-column: 1 / -1;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.slides-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.slides-container .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.slides-container .slide img {
+    width: 33%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slides-container .slide h2, .slides-container .slide p {
+    margin: 10px 0;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: revert;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.homepage-main section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.homepage-main h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.homepage-main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.homepage-main p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------Reservations Form Section-----------------------*/
+
+.reservationsForm fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.reservationsForm legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
+.reservationsForm label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+}
+
+.reservationsForm input[type="text"],
+.reservationsForm input[type="tel"],
+.reservationsForm input[type="email"],
+.reservationsForm select
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------This is the section that makes it moblie! -------------------*/
+
+@media only screen and (max-width: 460px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container {
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .homepage-main {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+
+
+
+
+
+    /*------------------Hamburger menu section--------------------*/
+    #menu {
+        border: 0;
+        background: none;
+        color: #000;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .navigation a {
+        display: none;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .open a {
+        display: block;
+    }
+
+    /* #cards section{
+        display: block;
+    } */
+
+
+
+
+
+
+
+
+
+
 }
