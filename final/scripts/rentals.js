@@ -14,6 +14,7 @@ const displayRentals = (rentals) => {
         let card = document.createElement("section");
         let coverImage = document.createElement("img");
         let vehicleName = document.createElement("h2");
+        let personSize = document.createElement("p");
 
 
         vehicleName.textContent = `${rental.rentalType}`;
@@ -23,6 +24,7 @@ const displayRentals = (rentals) => {
 
         card.appendChild(vehicleName);
         card.appendChild(coverImage);
+        card.appendChild(personSize);
 
         cards.appendChild(card);
     })
