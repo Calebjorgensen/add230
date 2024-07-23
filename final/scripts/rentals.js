@@ -18,6 +18,7 @@ const displayRentals = (rentals) => {
 
 
         vehicleName.textContent = `${rental.rentalType}`;
+        personSize.textContent = `${rental.maxPersons}`;
 
 
         coverImage.setAttribute("src",rental.rentalImage);
