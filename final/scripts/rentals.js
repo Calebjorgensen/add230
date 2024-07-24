@@ -15,10 +15,14 @@ const displayRentals = (rentals) => {
         let coverImage = document.createElement("img");
         let vehicleName = document.createElement("h2");
         let personSize = document.createElement("p");
+        let reserveHalfday = document.createElement("p");
+
 
 
         vehicleName.textContent = `${rental.rentalType}`;
         personSize.textContent = `${rental.maxPersons}`;
+        reserveHalfday.textContent = `${rental.rHalfDay}`;
+
 
 
         coverImage.setAttribute("src",rental.rentalImage);
@@ -26,6 +30,7 @@ const displayRentals = (rentals) => {
         card.appendChild(vehicleName);
         card.appendChild(coverImage);
         card.appendChild(personSize);
+        card.appendChild(reserveHalfday);
 
         cards.appendChild(card);
     })

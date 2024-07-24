@@ -6,14 +6,14 @@
             "rentalImage" : "images/hondametroscooter.jpg",
             "reservation" : [
                 {
-                    "halfDay" : "$20",
-                    "fullDay" : "$30"
+                    "rHalfDay" : "$20",
+                    "rFullDay" : "$30"
                 }
             ],
             "walkin" : [
                 {
-                    "halfDay" : "$25",
-                    "fullDay" : "$35"
+                    "wHalfDay" : "$25",
+                    "wFullDay" : "$35"
                 }
             ]
         },
@@ -23,14 +23,14 @@
             "rentalImage" : "images/hondadioscooter.webp",
             "reservation" : [
                 {
-                    "halfDay" : "$30",
-                    "fullDay" : "$40"
+                    "rHalfDay" : "$30",
+                    "rFullDay" : "$40"
                 }
             ],
             "walkin" : [
                 {
-                    "halfDay" : "$35",
-                    "fullDay" : "$45"
+                    "wHalfDay" : "$35",
+                    "wFullDay" : "$45"
                 }
             ]
         },
@@ -40,14 +40,14 @@
             "rentalImage" : "images/hondapcx150scooter.jpg",
             "reservation" : [
                 {
-                    "halfDay" : "$40",
-                    "fullDay" : "$50"
+                    "rHalfDay" : "$40",
+                    "rFullDay" : "$50"
                 }
             ],
             "walkin" : [
                 {
-                    "halfDay" : "$45",
-                    "fullDay" : "$55"
+                    "wHalfDay" : "$45",
+                    "wFullDay" : "$55"
                 }
             ]
         },
@@ -57,14 +57,14 @@
             "rentalImage" : "images/hondapioneeratv.jpg",
             "reservation" : [
                 {
-                    "halfDay" : "$50",
-                    "fullDay" : "$70"
+                    "rHalfDay" : "$50",
+                    "rFullDay" : "$70"
                 }
             ],
             "walkin" : [
                 {
-                    "halfDay" : "$60",
-                    "fullDay" : "$80"
+                    "wHalfDay" : "$60",
+                    "wFullDay" : "$80"
                 }
             ]
         },
@@ -74,14 +74,14 @@
             "rentalImage" : "images/jeepwrangler4door.webp",
             "reservation" : [
                 {
-                    "halfDay" : "$70",
-                    "fullDay" : "$1000"
+                    "rHalfDay" : "$70",
+                    "rFullDay" : "$1000"
                 }
             ],
             "walkin" : [
                 {
-                    "halfDay" : "$85",
-                    "fullDay" : "$125"
+                    "wHalfDay" : "$85",
+                    "wFullDay" : "$125"
                 }
             ]
         },
@@ -91,14 +91,14 @@
             "rentalImage" : "images/jeepwrangler2door.jpg",
             "reservation" : [
                 {
-                    "halfDay" : "$60",
-                    "fullDay" : "$85"
+                    "rHalfDay" : "$60",
+                    "rFullDay" : "$85"
                 }
             ],
             "walkin" : [
                 {
-                    "halfDay" : "$70",
-                    "fullDay" : "$90"
+                    "wHalfDay" : "$70",
+                    "wFullDay" : "$90"
                 }
             ]
         }

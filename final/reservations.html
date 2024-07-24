@@ -35,13 +35,17 @@
     </header>
     <button id="menu"></button>
    <main id="reservations-main">
-        <form method="get" action="" class="reservationsForm">
+        <form method="get" action="ordercomfirmation.html" class="reservationsForm">
             <fieldset>
                 <legend>Renters Information</legend>
                 <label>First Name* <input type="text" name="fname" required></label>
                 <label>Last Name* <input type="text" name="lname" required></label>
                 <label>Phone Number* <input type="tel" name="phone" required></label>
                 <label>Email* <input type="email" name="email"  required></label>
+                <label>State<input type="text" id="stateInput" name="state" required></label>
+                <label>Country<input type="text" id="countryInput" name="country" required></label>
+                <label>Cruise Liner <input type="text" name="cruise"></label>
+
             </fieldset>
 
             <fieldset>
@@ -56,11 +60,16 @@
                         <option value="vehicle5">Jeep Wrangler - 4 door with a/c</option>
                         <option value="vehicle6">Jeep Wrangler - 2 door</option>
                     </select>
+                    <label>Date <input type="date" name="date" required></label>
+
+                    <div>Time Period</div>
+                    <label><input type="radio" name="time" value="halfday" required>Half day (3 hours)</label>
+                    <label><input type="radio" name="time" value="fullday" required>Full day</label>
                 </label>
             </fieldset>
 
             <fieldset>
-                <legend>Legal Info</legend>
+                <legend>Rental Argeement</legend>
                 <label><input type="checkbox" name="" value="yes" required>I have read the terms and condtions </label>
             </fieldset>
 
@@ -86,5 +95,6 @@
         </section>
     </footer>
     <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/state.js"></script>
 </body>
 </html>
