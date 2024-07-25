@@ -15,9 +15,7 @@
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <div id="weather-message" class="weather-message">
-        <span id="temp-max">Loading...</span>
-    </div>
+
     <header>
         <div class="logo-container">
         <img src="images/scootslogo.jpg" alt="Scoots logo image" class="logo">
@@ -36,7 +34,25 @@
     <button id="menu"></button>
    <main id="rentals-main">
         <div id="cards"></div>
+
    </main>
+   <div id="popup" class="hidden">
+        <div id="popup-content">
+            <span id="close-btn">&times;</span>
+            <img id="popup-img" src="" alt="">
+            <h2 id="popup-title"></h2>
+            <p id="popup-personSize"></p>
+
+            <p id="popup-reservationHalfDay"></p>
+            <p id="popup-walkInHalfDay"></p>
+
+            <p id="popup-reservationFullDay"></p>
+            <p id="popup-walkInFullDay"></p>
+            <p id="halfSaving"></p>
+
+            <a id="popup-form-btn" href="reservations.html">Reserve This Ride</a>
+        </div>
+   </div>
     <footer>
         <section>
             <img src="images/scootslogo.jpg" alt="Scoots logo image" class="logo">

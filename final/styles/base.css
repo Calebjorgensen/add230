@@ -12,9 +12,7 @@ img {
 
 /*-------------Header section--------------------*/
 
-header {
-    display: flex;
-}
+
 
 header {
     display: flex;
@@ -173,6 +171,10 @@ footer section {
     overflow: hidden;
     width: 100%;
     height: 400px;
+    /**/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slides-container {
@@ -201,11 +203,11 @@ footer section {
 
 .prev, .next {
     cursor: pointer;
-    position: revert;
+    position: absolute;
     top: 50%;
     width: auto;
     padding: 10px;
-    margin-top: -22px;
+    /* margin-top: -22px; */
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -213,16 +215,60 @@ footer section {
     border-radius: 0 3px 3px 0;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
 }
 
 .next {
-    right: 0;
+    right: 10px;
     border-radius: 3px 0 0 3px;
 }
 
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.call-to-action {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.call-to-action:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .homepage-main section {
     background-color: #f9f9f9;
@@ -279,6 +325,7 @@ main#rentals-main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 #cards section:hover {
@@ -298,6 +345,72 @@ main#rentals-main {
     color: #333;
 }
 
+
+/*-----Pop up Section Code-----------*/
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+}
+
+#popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+}
+
+#popup-content img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+#popup-content h2 {
+    margin: 16px 0;
+}
+
+#popup-content p {
+    margin: 8px 0;
+}
+
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#popup.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+#popup-form-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#popup-form-btn:hover {
+    background-color: #0056b3;
+}
 
 
 
@@ -377,7 +490,8 @@ main#rentals-main {
 .reservationsForm input[type="tel"],
 .reservationsForm input[type="email"],
 .reservationsForm select,
-.reservationsForm input[type="date"]
+.reservationsForm input[type="date"],
+.reservationsForm textarea
 {
     background-color: #eee;
     display: block;
@@ -389,6 +503,14 @@ main#rentals-main {
     max-width: 370px;
 }
 
+
+
+
+/*---------Order Main Page------------*/
+
+#thankyou-order {
+    text-align: center;
+}
 
 
 
@@ -454,6 +576,48 @@ main#contact-main {
     background: #0056b3;
 }
 
+#message {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 370px;
+}
+
+
+
+
+/*-----------Contact Main Section--------------*/
+
+#contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.contact-form {
+    grid-column: span 2;
+}
+.contact-info {
+    grid-column: span 2;
+}
+.mapContainer {
+    width: 100%;
+}
+.iframeMap {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+
+
+
+
+
+
 
 
 
@@ -507,6 +671,13 @@ main#contact-main {
     .homepage-main {
         grid-template-columns: 1fr;
         padding: 10px;
+    }
+
+
+
+    /*----------Contact Main for Moblie view--------------*/
+    #contact-main {
+        grid-template-columns: 1fr;
     }
 
 

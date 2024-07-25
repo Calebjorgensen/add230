@@ -15,9 +15,13 @@
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <div id="weather-message" class="weather-message">
-        <span id="temp-max">Loading...</span>
+    <div d="weather-card">
+                <figure>
+                    <div>Current Temperature: <span id="current-temp"></span></div>
+                </figure>
     </div>
+
+    
     <header>
         <div class="logo-container">
         <img src="images/scootslogo.jpg" alt="Scoots logo image" class="logo">
@@ -39,6 +43,7 @@
             <div class="slides-container"></div>
             <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
             <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            <a href="rentals.html" class="call-to-action">Check it out</a>
         </section>
 
 
@@ -50,13 +55,15 @@
 
         <section>
             <h2>Our Rentals</h2>
-            <div></div>
+            <div>
+                <p>Our Rentals are the best on the island, whether you are by your self or in a group, we have the right rantal for you!</p>
+            </div>
         </section>
 
         <section>
-            <h2>Current Weather</h2>
+            <h2>Contact Us</h2>
             <div>
-                <p>loading</p>
+                <p>We are ready to help, just send us a email or use our contact page to reach us!</p>
             </div>
         </section>
     </main>
@@ -78,5 +85,6 @@
     </footer>
     <script src="scripts/slideshow.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
